@@ -1,0 +1,41 @@
+body{
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+}
+h1{
+font-style: italic;
+}
+
+button{
+    background: red;
+    color: white;
+}
+div.try{
+    display:flex;
+    }
+    .passage{
+        width: 300px;
+    background-color: rgb(21, 21, 65);
+    height: 50px;
+    /* text-align: center;
+    align-content: center; */
+    align-items: center;
+    z-index: 2;
+
+    }
+#changee{
+    cursor: pointer;
+animation-name: example;
+animation-duration: 10s;
+animation-timing-function: linear;
+width: 100%;
+white-space: nowrap;
+overflow: hidden;
+position: relative;
+}
+
+@keyframes example {
+    from {left:-60%;}
+   to {left:-10%;}
+}
